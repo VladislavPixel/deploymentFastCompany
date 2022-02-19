@@ -1,0 +1,35 @@
+{
+	"name": "server-fastcompany-custom",
+	"version": "1.0.0",
+	"description": "My custom server for the project FastCompany",
+	"main": "index.js",
+	"scripts": {
+		"start": "cross-env NODE_ENV=production node app.js",
+		"serve": "cross-env NODE_ENV=development nodemon app.js"
+	},
+	"keywords": [
+		"server",
+		"nodeJS",
+		"node",
+		"javascript",
+		"js",
+		"express.js",
+		"NodeJS"
+	],
+	"author": "pixel. <pixel.develop@yandex.ru>",
+	"license": "ISC",
+	"dependencies": {
+		"bcryptjs": "^2.4.3",
+		"chalk": "^4.1.2",
+		"config": "^3.3.7",
+		"cors": "^2.8.5",
+		"express": "^4.17.2",
+		"express-validator": "^6.14.0",
+		"jsonwebtoken": "^8.5.1",
+		"mongoose": "^6.1.8"
+	},
+	"devDependencies": {
+		"cross-env": "^7.0.3",
+		"nodemon": "^2.0.15"
+	}
+}
